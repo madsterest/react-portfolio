@@ -11,8 +11,9 @@ function Header() {
   const [currentPage, setCurrentPage] = useState("About Me");
 
   const handleOnClick = (e) => {
-    const page = e.target;
-    setCurrentPage(page);
+    console.log(e.target);
+    setCurrentPage(e.target.innerHTML);
+    console.log(currentPage);
   };
 
   return (
@@ -21,10 +22,26 @@ function Header() {
         <h1 className="name">Madeleine O'Dea</h1>
         <div>
           <ul>
-            <Navigation title="About Me" onClick={handleOnClick} />
-            <Navigation title="Portfolio" onClick={handleOnClick} />
-            <Navigation title="Contact" onClick={handleOnClick} />
-            <Navigation title="Resume" onClick={handleOnClick} />
+            <Navigation
+              title="About Me"
+              onClick={handleOnClick}
+              currentPage={currentPage}
+            />
+            <Navigation
+              title="Portfolio"
+              onClick={handleOnClick}
+              currentPage={currentPage}
+            />
+            <Navigation
+              title="Contact"
+              onClick={handleOnClick}
+              currentPage={currentPage}
+            />
+            <Navigation
+              title="Resume"
+              onClick={handleOnClick}
+              currentPage={currentPage}
+            />
           </ul>
         </div>
       </header>

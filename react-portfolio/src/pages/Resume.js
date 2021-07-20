@@ -1,5 +1,5 @@
-function Portfolio() {
-  return <div>Portfolio</div>;
+function Resume() {
+  return <div>Resume</div>;
 }
 
-export default Portfolio;
+export default Resume;
