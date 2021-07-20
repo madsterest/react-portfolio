@@ -19,3 +19,7 @@ a:hover {
 a:visited {
   color: white;
 }
+
+.active {
+  border: 2px dotted darkred;
+}
