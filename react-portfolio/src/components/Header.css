@@ -1,0 +1,15 @@
+header {
+  background-color: rgb(247, 104, 104);
+  padding: 0;
+  border-bottom: 5px solid rgb(117, 107, 107);
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+header div {
+  padding-top: 40px;
+}

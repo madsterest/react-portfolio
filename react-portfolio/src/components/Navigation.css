@@ -1,0 +1,21 @@
+a {
+  display: inline;
+  margin-right: 15px;
+  padding: 5px;
+  font-size: 18px;
+  border: 2px dashed rgb(238, 201, 201);
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  border: 2px dotted darkred;
+}
+
+a:visited {
+  color: white;
+}
