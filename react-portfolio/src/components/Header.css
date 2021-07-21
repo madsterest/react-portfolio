@@ -22,3 +22,23 @@ header div {
   width: 200px;
   height: 300px;
 }
+
+.contact-form {
+  padding-top: 5%;
+  text-align: center;
+}
+.contact-form p {
+  font-weight: bold;
+  margin: 10px;
+  color: coral;
+}
+
+.contact-form textarea {
+  margin-bottom: 2%;
+}
+.contact-form button {
+  padding: 1%;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px dashed coral;
+}

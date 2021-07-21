@@ -9,11 +9,28 @@ import { useState } from "react";
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("About Me");
+  const [nameError, setNameError] = useState(false);
+  const [emailError, setEmailError] = useState(false);
 
   const handleOnClick = (e) => {
     console.log(e.target);
     setCurrentPage(e.target.innerHTML);
     console.log(currentPage);
+  };
+
+  const handleOnNameInput = (e) => {
+    const input = e.target.value;
+    if (!input) {
+      setNameError(true);
+    }
+  };
+
+  const handleEmailInput = (e) => {
+    const input = e.target.value;
+    const myReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    if (!myReg.exec(input)) {
+      setEmailError(true);
+    }
   };
 
   return (
@@ -48,7 +65,14 @@ function Header() {
       <main>
         {currentPage === "About Me" && <AboutMe />}
         {currentPage === "Portfolio" && <Portfolio />}
-        {currentPage === "Contact" && <Contact />}
+        {currentPage === "Contact" && (
+          <Contact
+            onFocusOut={handleOnNameInput}
+            nameError={nameError}
+            onEmailFocusOut={handleEmailInput}
+            emailError={emailError}
+          />
+        )}
         {currentPage === "Resume" && <Resume />}
       </main>
     </div>
