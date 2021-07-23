@@ -22,6 +22,8 @@ function Header() {
     const input = e.target.value;
     if (!input) {
       setNameError(true);
+    } else {
+      setNameError(false);
     }
   };
 
@@ -30,6 +32,8 @@ function Header() {
     const myReg = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     if (!myReg.exec(input)) {
       setEmailError(true);
+    } else {
+      setEmailError(false);
     }
   };
 

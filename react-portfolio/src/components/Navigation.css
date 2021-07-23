@@ -8,6 +8,10 @@ li {
   text-decoration: none;
 }
 
+li:hover {
+  border: 2px dashed darkred;
+}
+
 .active {
   border: 2px dotted darkred;
 }
