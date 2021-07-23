@@ -1,4 +1,4 @@
-li {
+.nav li {
   display: inline;
   margin-right: 15px;
   padding: 5px;
@@ -8,7 +8,7 @@ li {
   text-decoration: none;
 }
 
-li:hover {
+.nav li:hover {
   border: 2px dashed darkred;
 }
 

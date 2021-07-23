@@ -6,6 +6,7 @@ import Portfolio from "../pages/Portfolio";
 import Contact from "../pages/Contact";
 import Resume from "../pages/Resume";
 import { useState } from "react";
+import resumeDownload from "../pages/assets/Resume-2021.pdf";
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("About Me");
@@ -42,7 +43,7 @@ function Header() {
       <header>
         <h1 className="name">Madeleine O'Dea</h1>
         <div>
-          <ul>
+          <ul class="nav">
             <Navigation
               title="About Me"
               onClick={handleOnClick}
@@ -77,7 +78,7 @@ function Header() {
             emailError={emailError}
           />
         )}
-        {currentPage === "Resume" && <Resume />}
+        {currentPage === "Resume" && <Resume resume={resumeDownload} />}
       </main>
     </div>
   );

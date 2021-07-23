@@ -27,6 +27,13 @@ header div {
   padding-top: 5%;
   text-align: center;
 }
+
+.contact-form input {
+  width: 300px;
+}
+.contact-form textarea {
+  width: 300px;
+}
 .contact-form p {
   font-weight: bold;
   margin: 10px;
@@ -41,4 +48,16 @@ header div {
   border-radius: 10px;
   background-color: white;
   border: 2px dashed coral;
+}
+.contact-form button:hover {
+  border: 3px dashed coral;
+}
+
+.resume {
+  text-align: center;
+}
+
+.resume ul {
+  list-style: none;
+  padding: 0;
 }
