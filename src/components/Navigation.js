@@ -3,13 +3,13 @@ import "./Navigation.css";
 function Navigation(props) {
   if (props.currentPage === props.title) {
     return (
-      <li className="active" onClick={props.onClick}>
+      <li id="active" onClick={props.onClick}>
         {props.title}
       </li>
     );
   } else {
     return (
-      <li className="not-active" onClick={props.onClick}>
+      <li id="not-active" onClick={props.onClick}>
         {props.title}
       </li>
     );

@@ -16,7 +16,7 @@ function Footer() {
         <li>
           <a
             rel="noopener noreferrer"
-            href="linkedin.com/in/madeleine-o-dea-8260a5204"
+            href="https://www.linkedin.com/in/madeleine-o-dea-8260a5204/"
             target="_blank"
           >
             <i className="fab fa-linkedin fa-2x"></i>

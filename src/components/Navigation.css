@@ -1,6 +1,7 @@
 .nav {
   margin-top: 10%;
 }
+
 .nav li {
   display: inline;
   margin-right: 15px;
@@ -15,12 +16,8 @@
   border: 2px dashed darkred;
 }
 
-.active {
+#active {
   border: 2px dotted darkred;
-}
-
-.not-active {
-  border: 2px dashed rgb(238, 201, 201);
 }
 
 @media screen and (max-width: 992px) {
@@ -36,5 +33,8 @@
   }
   .nav li {
     margin: 2%;
+  }
+  #active {
+    border: 2px dotted darkred;
   }
 }
