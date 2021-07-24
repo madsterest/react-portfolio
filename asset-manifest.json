@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.38e08f95.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.84f475dd.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.84f475dd.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.872b2f22.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.872b2f22.js.map",
+    "static/js/2.2d0703c1.chunk.js": "/react-portfolio/static/js/2.2d0703c1.chunk.js",
+    "static/js/2.2d0703c1.chunk.js.map": "/react-portfolio/static/js/2.2d0703c1.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.38e08f95.chunk.css.map": "/react-portfolio/static/css/main.38e08f95.chunk.css.map",
+    "static/js/2.2d0703c1.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.2d0703c1.chunk.js.LICENSE.txt",
+    "static/media/9.17eba4df.JPG": "/react-portfolio/static/media/9.17eba4df.JPG",
+    "static/media/Resume-2021.06e0b355.pdf": "/react-portfolio/static/media/Resume-2021.06e0b355.pdf",
+    "static/media/covid-tracker.5a50f010.png": "/react-portfolio/static/media/covid-tracker.5a50f010.png",
+    "static/media/procrastination.f97e8b11.png": "/react-portfolio/static/media/procrastination.f97e8b11.png",
+    "static/media/routes.f2e04e02.png": "/react-portfolio/static/media/routes.f2e04e02.png",
+    "static/media/team-profile.877e6f78.png": "/react-portfolio/static/media/team-profile.877e6f78.png",
+    "static/media/tech-blog.12b3f8e7.png": "/react-portfolio/static/media/tech-blog.12b3f8e7.png",
+    "static/media/weather-dash-screenshot.95f7abd4.png": "/react-portfolio/static/media/weather-dash-screenshot.95f7abd4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.872b2f22.js",
+    "static/js/2.2d0703c1.chunk.js",
+    "static/css/main.38e08f95.chunk.css",
+    "static/js/main.84f475dd.chunk.js"
+  ]
+}
