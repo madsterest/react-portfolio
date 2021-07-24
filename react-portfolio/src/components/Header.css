@@ -9,14 +9,13 @@ header {
   color: white;
   padding-left: 20px;
   padding-top: 10px;
-}
-header div {
-  padding-top: 40px;
+  display: block;
 }
 
 .homepage {
   padding: 2%;
   text-align: center;
+  position: relative;
 }
 .homepage img {
   width: 200px;
@@ -26,6 +25,7 @@ header div {
 .contact-form {
   padding-top: 5%;
   text-align: center;
+  position: relative;
 }
 
 .contact-form input {
@@ -55,6 +55,7 @@ header div {
 
 .resume {
   text-align: center;
+  position: relative;
 }
 
 .resume ul {

@@ -55,7 +55,7 @@ function Portfolio() {
     },
   ];
   return (
-    <div class="profile">
+    <div className="profile">
       <Project
         title={projects[0].title}
         src={projects[0].src}

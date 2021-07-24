@@ -1,8 +1,8 @@
 function Resume(props) {
   return (
-    <div class="resume">
+    <div className="resume">
       <h3>Resume:</h3>
-      <a href={props.resume} target="_blank">
+      <a rel="noopener noreferrer" href={props.resume} target="_blank">
         Resume
       </a>
       <h4>Technical Skills:</h4>

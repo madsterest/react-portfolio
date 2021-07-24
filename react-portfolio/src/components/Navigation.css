@@ -1,3 +1,6 @@
+.nav {
+  margin-top: 10%;
+}
 .nav li {
   display: inline;
   margin-right: 15px;
@@ -18,4 +21,20 @@
 
 .not-active {
   border: 2px dashed rgb(238, 201, 201);
+}
+
+@media screen and (max-width: 992px) {
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .nav {
+    margin-top: 30px;
+    padding-left: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  .nav li {
+    margin: 2%;
+  }
 }

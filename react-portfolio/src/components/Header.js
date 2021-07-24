@@ -7,6 +7,7 @@ import Contact from "../pages/Contact";
 import Resume from "../pages/Resume";
 import { useState } from "react";
 import resumeDownload from "../pages/assets/Resume-2021.pdf";
+import Footer from "./Footer";
 
 function Header() {
   const [currentPage, setCurrentPage] = useState("About Me");
@@ -39,33 +40,31 @@ function Header() {
   };
 
   return (
-    <div>
+    <div className="main">
       <header>
         <h1 className="name">Madeleine O'Dea</h1>
-        <div>
-          <ul class="nav">
-            <Navigation
-              title="About Me"
-              onClick={handleOnClick}
-              currentPage={currentPage}
-            />
-            <Navigation
-              title="Portfolio"
-              onClick={handleOnClick}
-              currentPage={currentPage}
-            />
-            <Navigation
-              title="Contact"
-              onClick={handleOnClick}
-              currentPage={currentPage}
-            />
-            <Navigation
-              title="Resume"
-              onClick={handleOnClick}
-              currentPage={currentPage}
-            />
-          </ul>
-        </div>
+        <ul className="nav">
+          <Navigation
+            title="About Me"
+            onClick={handleOnClick}
+            currentPage={currentPage}
+          />
+          <Navigation
+            title="Portfolio"
+            onClick={handleOnClick}
+            currentPage={currentPage}
+          />
+          <Navigation
+            title="Contact"
+            onClick={handleOnClick}
+            currentPage={currentPage}
+          />
+          <Navigation
+            title="Resume"
+            onClick={handleOnClick}
+            currentPage={currentPage}
+          />
+        </ul>
       </header>
       <main>
         {currentPage === "About Me" && <AboutMe />}
@@ -79,6 +78,8 @@ function Header() {
           />
         )}
         {currentPage === "Resume" && <Resume resume={resumeDownload} />}
+
+        <Footer />
       </main>
     </div>
   );

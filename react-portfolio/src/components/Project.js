@@ -2,7 +2,7 @@ import "./Project.css";
 
 function Project(props) {
   return (
-    <div class="project">
+    <div className="project">
       <h2>{props.title}</h2>
       <img src={props.src} alt={props.alt} />
       <p>
